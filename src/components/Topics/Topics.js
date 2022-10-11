@@ -1,8 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import Quiz from "../Quiz/Quiz";
-// import Product from "../Product/Product";
-// import Product from "../Product/Product";
 
 const Topics = ({ params }) => {
   const quizs = useLoaderData();
