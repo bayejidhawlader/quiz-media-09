@@ -4,7 +4,7 @@ const QuizDetail = () => {
   return (
     <div>
       <h1>Hello Bangladesh</h1>
-      <h2>Test Of {}</h2>
+      <h2>Test Of Texts{}</h2>
     </div>
   );
 };
