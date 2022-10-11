@@ -1,0 +1,2 @@
+1. Create a Navber using Daisy Ui
+2. Added Header Content and Images
