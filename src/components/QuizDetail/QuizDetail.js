@@ -5,13 +5,13 @@ import SingleQuiz from "../SingleQuiz/SingleQuiz";
 
 const QuizDetail = ({ params }) => {
   const quizdetail = useLoaderData();
+  console.log(quizdetail);
   return (
-    <div>
-      <h2>Test Of Texts</h2>
+    <div className=" grid  md:grid-cols-2 grid-cols-1 my-10 gap-11">
       {/* {quiz.data.map((qui) => (
         <SingleQuiz key={qui.id} qui={qui}></SingleQuiz>
       ))} */}
-      {quizdetail.data.map((quizz) => (
+      {quizdetail.data.questions.map((quizz) => (
         <SingleQuiz key={quizz.id} quizz={quizz}></SingleQuiz>
       ))}
     </div>
