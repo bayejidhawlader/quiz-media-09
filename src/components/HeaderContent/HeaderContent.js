@@ -11,7 +11,7 @@ const HeaderContent = () => {
             alt="Album"
           />
         </figure>
-        <div className="card-body mx-72 items-center">
+        <div className="card-body mx-auto items-center">
           <h2 className="card-title">Take a quiz chellange With Quiz Mania</h2>
           <p className="">
             Create quizzes, shows programs, solve Answer, and
