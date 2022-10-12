@@ -2,7 +2,7 @@ import React from "react";
 
 const FourOFour = () => {
   return (
-    <div className="text-9xl py-6">
+    <div className="md:text-9xl py-6">
       <h1 className="">404 Not Found</h1>
     </div>
   );
