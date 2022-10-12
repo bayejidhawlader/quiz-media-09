@@ -2,9 +2,8 @@ import React from "react";
 
 const FourOFour = () => {
   return (
-    <div>
-      <h1 className="text-9xl">404</h1>
-      <h2>Something Missiong</h2>
+    <div className="text-9xl py-6">
+      <h1 className="">404 Not Found</h1>
     </div>
   );
 };
