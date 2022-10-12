@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 // import { useLoaderData } from "react-router-dom";
 
 const Quiz = ({ quiz }) => {
-  const { name, logo, id } = quiz;
+  console.log(quiz);
+  const { name, logo, id, total } = quiz;
   return (
     <div className="max-w-sm">
       <div className="card shadow-xl border-2 dark:bg-gray-300">
@@ -13,11 +14,8 @@ const Quiz = ({ quiz }) => {
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
 
-          <div className="card-actions justify-end">
-            {/* <Link to={`/quiz/${id}`}>
-              
-            </Link> */}
-
+          <div className="flex items-center card-actions justify-between">
+            <span>Question: {total}</span>
             <Link to={`/quiz/${id}`}>
               <button className="btn btn-primary">Start Quiz</button>
             </Link>
