@@ -7,7 +7,7 @@ export const Options = ({ options, option, correctAnswer, name }) => {
     if (option === correctAnswer) {
       toast.success("Your answer is Correct");
     } else {
-      toast.error("wrong");
+      toast.error("Answer is Wrong");
     }
   };
   return (
@@ -15,9 +15,9 @@ export const Options = ({ options, option, correctAnswer, name }) => {
       onClick={() => {
         quizOptionHandler(option);
       }}
-      className="lg:max-w-[350px] sm:mx-w-[200px] lg:h-[80px] sm:h-[50px] sm:flex sm:items-start sm:justify-center border-2  rounded-none hover:bg-purple-200 cursor-pointer text-black"
+      className="lg:max-w-[350px] sm:max-w-[200px] lg:h-[80px] sm:h-[50px] sm:flex sm:items-center sm:justify-center border-2 border-stone-500 rounded hover:bg-stone-100 cursor-pointer"
     >
-      <div className="max-w-[300px] h-[70px] mx-auto font-bold font-mono flex items-center justify-center">
+      <div className="max-w-[300px] h-[70px] mx-auto font-bold font-mono flex items-center justify-center ">
         <ToastContainer theme="colored"></ToastContainer>
         {option}
       </div>

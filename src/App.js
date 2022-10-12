@@ -57,5 +57,3 @@ function App() {
 }
 
 export default App;
-
-// https://openapi.programming-hero.com/api/quiz

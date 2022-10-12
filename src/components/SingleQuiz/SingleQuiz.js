@@ -4,19 +4,17 @@ import { EyeIcon } from "@heroicons/react/24/solid";
 import Options from "../Options/Options";
 
 export const SingleQuiz = ({ singleQuiz }) => {
-  // console.log(singleQuiz);
   const { correctAnswer, options, question, name } = singleQuiz;
 
   const hintsHandler = () => {
-    // console.log(options);
     toast.warning(correctAnswer);
   };
 
   return (
-    <div className="w-full h-full py-5">
-      <div className="lg:w-[700px] lg:h-[300px] sm: w-[400px] sm:h-[600px] mx-auto rounden shadow-md  border-2 border-black-200">
+    <div className="w-full h-full mt-20">
+      <div className="lg:w-[700px] lg:h-[300px] sm:w-[400px] sm:h-[600px] mx-auto rounded shadow-md shadow-stone-800 border-[1px] border-gray-50">
         <div className="max-w-[600px] h-[100px]  mx-auto text-center flex items-center justify-between">
-          <h1 className="font-bold font-mono  py-2">
+          <h1 className="font-bold font-mono py-2">
             <span className="text-xl font-bold"></span>- {question}
           </h1>
           <div className="max-w-[60px] h-[60px]">
