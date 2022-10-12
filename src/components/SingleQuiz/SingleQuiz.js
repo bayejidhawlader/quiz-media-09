@@ -4,7 +4,7 @@ import { EyeIcon } from "@heroicons/react/24/solid";
 import Options from "../Options/Options";
 
 export const SingleQuiz = ({ singleQuiz }) => {
-  const { correctAnswer, options, question, name } = singleQuiz;
+  const { correctAnswer, options, question } = singleQuiz;
 
   const hintsHandler = () => {
     toast.warning(correctAnswer);
@@ -33,7 +33,6 @@ export const SingleQuiz = ({ singleQuiz }) => {
               key={Math.random()}
               option={option}
               options={options}
-              name={name}
               correctAnswer={correctAnswer}
             ></Options>
           ))}

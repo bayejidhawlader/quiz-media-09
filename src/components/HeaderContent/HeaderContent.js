@@ -6,8 +6,8 @@ const HeaderContent = () => {
       <div className="card">
         <figure>
           <img
-            className="w-[50%]"
-            src="https://images.pexels.com/photos/7092611/pexels-photo-7092611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            className="w-[40%]"
+            src="https://quizizz.com/wf/assets/6333fb9ca08e3adffcfc663b_Funding_CTA_Image-p-800.png"
             alt="Album"
           />
         </figure>
