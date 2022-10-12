@@ -2,11 +2,7 @@ import React from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export const Options = ({ options, option, correctAnswer }) => {
-  // console.log(correctAnswer);
-
-  console.log(option);
-
+export const Options = ({ options, option, correctAnswer, name }) => {
   const quizOptionHandler = (option) => {
     if (option === correctAnswer) {
       toast.success("Your answer is Correct");
