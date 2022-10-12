@@ -25,7 +25,7 @@ export const SingleQuiz = ({ singleQuiz }) => {
               title={correctAnswer}
               className="w-8 h-8  ml-5 cursor-pointer"
             >
-              <ToastContainer theme="colored"></ToastContainer>
+              <ToastContainer theme=""></ToastContainer>
             </EyeIcon>
           </div>
         </div>

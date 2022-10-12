@@ -7,7 +7,7 @@ const Quiz = ({ quiz }) => {
   const { name, logo, id, total } = quiz;
   return (
     <div className="max-w-sm">
-      <div className="card shadow-xl border-2 dark:bg-gray-300">
+      <div className="card  border-2 dark:bg-gray-300">
         <figure>
           <img src={logo} alt="Shoes" />
         </figure>

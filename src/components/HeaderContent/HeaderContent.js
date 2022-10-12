@@ -2,8 +2,8 @@ import React from "react";
 
 const HeaderContent = () => {
   return (
-    <div className="bg-white text-black py-11">
-      <div className="card lg:card-side">
+    <div className="bg-white text-black pt-32">
+      <div className="card">
         <figure>
           <img
             className="w-[50%]"
@@ -11,9 +11,12 @@ const HeaderContent = () => {
             alt="Album"
           />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">Welcome to the quiz website</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
+        <div className="card-body mx-72 items-center">
+          <h2 className="card-title">Take a quiz chellange With Quiz Mania</h2>
+          <p className="">
+            Create quizzes, shows programs, solve Answer, and
+            programming-learning that anyone can play on any device.
+          </p>
           <div className="card-actions justify-end"></div>
         </div>
       </div>

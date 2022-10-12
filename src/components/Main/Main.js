@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
-import HeaderContent from "../HeaderContent/HeaderContent";
+// import HeaderContent from "../HeaderContent/HeaderContent";
 // import Nav from "../Nav/Nav";
 
 const Main = () => {
