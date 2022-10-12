@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="bg-white">
+    <div className="py-32">
       <div
         tabIndex={0}
         className="collapse collapse-open border border-base-300 rounded-box"
