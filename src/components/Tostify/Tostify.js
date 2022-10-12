@@ -5,9 +5,9 @@ const Tostify = () => {
   const notify = () => toast("Wow so easy!");
   return (
     <div>
-      <button className="bg-red-400" onClick={notify}>
+      {/* <button className="bg-red-400" onClick={notify}>
         Notify!
-      </button>
+      </button> */}
       <ToastContainer></ToastContainer>
     </div>
   );
