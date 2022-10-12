@@ -7,7 +7,7 @@ const QuizDetail = ({ params }) => {
   const quizdetail = useLoaderData();
   console.log(quizdetail);
   return (
-    <div className=" grid  md:grid-cols-2 grid-cols-1 my-10 gap-11">
+    <div className="grid md:grid-cols- grid-cols-1 p-10  gap-24">
       {/* {quiz.data.map((qui) => (
         <SingleQuiz key={qui.id} qui={qui}></SingleQuiz>
       ))} */}
